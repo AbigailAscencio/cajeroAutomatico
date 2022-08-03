@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-size: 25px;
+    font-family: fantasy;    
+}
+
+header{
+    margin-left: 200px;
+
+}
+.login{
+    margin: 0px;
+    height: 500px;
+    width: 870px;
+    background-color: rgba(77, 77, 82, 0.267);
+    margin-left: 200px;
+}
+
+.login form{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+.login form .button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.473);
+}

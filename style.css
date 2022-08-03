@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 20px;
+}
+.cajero{
+    background-image: url("src/imagen3.jpg") ;
+    height: 500px;
+    width: 1300px;
+    background-repeat: no-repeat;
+}
+.mostrar{
+   margin-left: 175px;
+   padding-top: 150px;
+   color: aliceblue;
+
+}
+form{
+    margin-left: 1000px;
+
+}
+.button{
+    width: 340px;
+    height: 60px;
+    margin-left: 55px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.473);   
+    font-family: monospace;
+    font-size: 30px;
+}

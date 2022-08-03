@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cajero Automatico</title>
+</head>
+<body>
+    <div class="cajero">
+        <div class="mostrar">
+            <label for="saldo">Saldo:</label> <br>
+            <label id = "mostrarSaldo">$</label> <br>
+            <label for="monto">Monto depositado/retirado</label> <br>
+            <label id ="mostrarMonto">$</label> <br>
+        </div>
+        <form action="">
+            <label for="ingreseMonto">Ingrese monto a depositar/retirar:</label> <br>
+            <label>$</label>
+            <input type="number" name="ingreseMonto" id="ingreseMonto"/> <br><br>
+        </form>
+    </div>
+        <input type="button" value="Saldo" id = "btnSaldo" class="button" onclick="verSaldo()">
+        <input type="button" value="Depositar" id="btnDepositar" class="button"  onclick="depositar()">
+        <input type="button" value="Retirar" id="btnRetirar" class="button" onclick="retirar()">
+        <input type="button" value="Salir" id="btnSalir" class="button"  onclick="salir()">
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
